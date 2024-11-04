@@ -31,3 +31,5 @@ gh repo create next-app --public
 git commit -m "first commit..."
 
 git push -u origin main
+
+gh auth login --with-token < C:\Users\user\.ssh\id_ed25519.pub
