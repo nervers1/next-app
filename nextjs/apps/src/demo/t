@@ -26,3 +26,8 @@ Press Enter to open https://github.com/login/device in your browser...
 ✓ Configured git protocol
 ✓ Uploaded the SSH key to your GitHub account: C:\Users\user\.ssh\id_ed25519.pub
 
+gh repo create next-app --public
+
+git commit -m "first commit..."
+
+git push -u origin main
