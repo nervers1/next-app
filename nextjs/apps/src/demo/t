@@ -1,0 +1,28 @@
+
+행공(기관 44, 시스템 : 77, IF: 459) 
+
+지방세표준(기관: 13, 시스템: 25, IF: 146)
+
+금융(Agent 설치 없고, 전용선을 통한 File, TCP 통신을 구성하므로 연계 기관/시스템 산정에서 제외)
+
+
+git config --global user.name "Formulate"
+git config --global user.email nervers1@gmail.com
+
+Examples
+# Start interactive setup
+$ gh auth login
+
+# Authenticate against github.com by reading the token from a file
+$ gh auth login --with-token < mytoken.txt
+
+# Authenticate with specific host
+$ gh auth login --hostname enterprise.internal
+
+! First copy your one-time code: ED71-1990
+Press Enter to open https://github.com/login/device in your browser...
+✓ Authentication complete.
+- gh config set -h github.com git_protocol ssh
+✓ Configured git protocol
+✓ Uploaded the SSH key to your GitHub account: C:\Users\user\.ssh\id_ed25519.pub
+
