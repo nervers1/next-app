@@ -1,0 +1,6 @@
+ - (지방세)  Megaware_Smart_Integration_7.0 16식(VM수:16개) 설치
+                SYSTEMiER Integration Suite@Lite 2식(VM수:2개) 설치
+                Mpower Plus Ver2.1.0 2식(VM수:2개) 설치
+                MESIM ESB Ver2.5 2식(VM수:2개) 설치
+
+Megaware Smart Integration 7.0
