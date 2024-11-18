@@ -1,4 +1,4 @@
-use tokio::io::{self};
+
 
 
 async fn sleep_1s_nonblocking(task: &str) {
@@ -9,6 +9,7 @@ async fn sleep_1s_nonblocking(task: &str) {
 }
 
 #[tokio::main(flavor = "multi_thread", worker_threads = 2)]
+#[allow(unused)]
 async fn main() {
   println!("Test 1: Run 2 async tasks squentially");
   sleep_1s_nonblocking("Task 1").await;
